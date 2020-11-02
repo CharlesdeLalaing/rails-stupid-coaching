@@ -1,0 +1,15 @@
+<% if @answer == "hello" %>
+    "wrong answer"
+    <% elsif @answer.include? "?" %>
+        "Silly question, get dressed and go to work!"
+    <% elsif @answer ==  "I am going to work now" %>
+        "Great!"
+    <% else %>
+        "I don't care, get dressed and go to work!"
+<%end%>
+
+
+
+
+<%= link_to("/ask") do %></strong> <span>Ask another question?</span>
+<% end %>
